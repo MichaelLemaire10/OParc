@@ -1,0 +1,19 @@
+include partials/header.pug
+
+div(class="cardB")
+    h1.title(class="has-text-danger")= "Nouvel incident"
+
+    div(class="form box")
+      form(action="/v1/incident/new" method="POST" class="is-flex")
+
+        h2(class="has-text-weight-semibold has-text-link control")="Attraction concerné"
+        div(class="select")
+          select(name="attraction_id" title="Attraction" required class="has-text-black")
+            each attraction in attractions
+              option(value=`${attraction.id}`) #{attraction.public_name}
+
+        h2(class="has-text-weight-semibold has-text-link")="Origine de l'incident"
+        label(class="origin")
+        textarea(id="origin" name="origin" class="textarea is-link" required placeholder="Détail de l'incident", cols="45", rows="10")
+
+        button(type="submit" class="button is-success is-block") Valider

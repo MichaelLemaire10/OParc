@@ -1,0 +1,48 @@
+include partials/header.pug 
+
+div(class="cardB")
+    h1.title(class="has-text-link column")="Fiche d'incident"
+    - if(incident.assigned_technician)
+
+        div(class="form box")
+
+            h2(class="has-text-weight-semibold has-text-info")="N° d'incident"
+            p=`${incident.id}`
+            h2(class="has-text-weight-semibold has-text-info")="Nature"
+            textarea(class="textarea" name="", cols="40", rows="2")=`${incident.origin}`
+
+            form(action=`/v1/incident/update/${incident.id}` method="POST" class="is-flex")
+        
+                h2(class="has-text-weight-semibold has-text-info")='Technicien'
+                
+                input(type="text" id="id" name="assigned_technician" class="input is-info" value=`${incident.assigned_technician}`)
+                input(type="hidden" name="id" placeholder=`${incident.id}`)
+                    
+                h2(class="has-text-weight-semibold has-text-info")='Date de résolution'
+                input(type="date" id="origin" name="resolution_date" class="input is-info" value=`${incident.resolution_date}`)
+                button(type="submit" class="a button is-success is-block") Valider
+                
+            form(action=`/v1/incident/delete/${incident.id}` method="POST" class="is-flex")
+
+                button(type="submit" class="a button is-danger is-block") Supprimer
+            
+    - else
+        div(class="form box")
+
+            h2(class="has-text-weight-semibold has-text-info")="N° d'incident"
+            p=`${incident.id}`
+            h2(class="has-text-weight-semibold has-text-info")="Nature"
+            textarea(class="textarea" name="", cols="40", rows="2")=`${incident.origin}`
+
+            form(action=`/v1/incident/update/${incident.id}` method="POST" class="is-flex")
+                
+                h2(class="has-text-weight-semibold has-text-info")='Technicien'
+                input(type="text" id="assigned_technician" name="assigned_technician" class="input is-info" placeholder="Nom du techicien")
+                    
+                h2(class="has-text-weight-semibold has-text-info" for="resolution_date")='Date de résolution'
+                input(type="date" id="resolution_date" name="resolution_date" class="input is-info" value=`${incident.resolution_date}`)
+                button(type="submit" class="a button is-success is-block") Valider
+
+            form(action=`/v1/incident/delete/${incident.id}` method="POST" class="is-flex")
+
+                button(type="submit" class="a button is-danger is-block") Supprimer

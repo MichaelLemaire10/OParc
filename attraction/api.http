@@ -1,0 +1,11 @@
+@host=http://localhost:4500/v1
+
+### Route init
+# GET {{host}}/init/2
+
+### Route events
+GET {{host}}/events
+
+
+### Route bookings
+# GET {{host}}/bookings

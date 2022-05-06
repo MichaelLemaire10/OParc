@@ -1,0 +1,27 @@
+[
+    {
+        "origin": "ipsum laboris ullamco",
+        "assigned_technician": "Freddie Mills",
+        "resolution_date": "2021-12-22 00:10:00"
+    },
+    {
+        "origin": "commodo ipsum",
+        "assigned_technician": "Melba Hirthe",
+        "resolution_date": null
+    },
+    {
+        "origin": "laboris esse qui reprehenderit",
+        "assigned_technician": "Gordon Daugherty",
+        "resolution_date": null
+    },
+    {
+        "origin": "laborum sit laboris esse qui reprehenderit reprehenderit",
+        "assigned_technician": "Antoinette Towne",
+        "resolution_date": null
+    },
+    {
+        "origin": "occaecat ipsum velit proident dolore irure exercitation",
+        "assigned_technician": "Eva Johns",
+        "resolution_date": null
+    }
+]

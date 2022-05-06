@@ -1,0 +1,92 @@
+[
+    {
+        "public_name": "Lennox International",
+        "capacity": 78,
+        "opening_hour": null,
+        "closing_hour": "00:10",
+        "duration": "10",
+        "incident_report_time": "2021-12-22 00:10:00",
+        "open_bool": false
+    },
+    {
+        "public_name": "OGE Energy",
+        "capacity": 55,
+        "opening_hour": null,
+        "closing_hour": "00:20",
+        "duration": "9",
+        "incident_report_time": "2021-12-22 00:20:00",
+        "open_bool": false
+    },
+    {
+        "public_name": "Community Health Systems",
+        "capacity": 87,
+        "opening_hour": null,
+        "closing_hour": "00:30",
+        "duration": "8",
+        "incident_report_time": "2021-12-22 00:30:00",
+        "open_bool": false
+    },
+    {
+        "public_name": "Genesis Energy",
+        "capacity": 81,
+        "opening_hour": null,
+        "closing_hour": "00:40",
+        "duration": "7",
+        "incident_report_time": "2021-12-22 00:40:00",
+        "open_bool": false
+    },
+    {
+        "public_name": "Groot",
+        "capacity": 64,
+        "opening_hour": null,
+        "closing_hour": "00:50",
+        "duration": "6",
+        "incident_report_time": "2021-12-22 00:50:00",
+        "open_bool": false
+    },
+    {
+        "public_name": "Warner Music Group",
+        "capacity": 67,
+        "opening_hour": "00:00",
+        "closing_hour": null,
+        "duration": "5",
+        "incident_report_time": null,
+        "open_bool": true
+    },
+    {
+        "public_name": "EMCOR Group",
+        "capacity": 93,
+        "opening_hour": "00:00",
+        "closing_hour": null,
+        "duration": "4",
+        "incident_report_time": null,
+        "open_bool": true
+    },
+    {
+        "public_name": "Crown Holdings",
+        "capacity": 66,
+        "opening_hour": "00:00",
+        "closing_hour": null,
+        "duration": "3",
+        "incident_report_time": null,
+        "open_bool": true
+    },
+    {
+        "public_name": "D.R. Horton",
+        "capacity": 83,
+        "opening_hour": "00:00",
+        "closing_hour": null,
+        "duration": "2",
+        "incident_report_time": null,
+        "open_bool": true
+    },
+    {
+        "public_name": "International",
+        "capacity": 55,
+        "opening_hour": "00:00",
+        "closing_hour": null,
+        "duration": "1",
+        "incident_report_time": null,
+        "open_bool": true
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "ticket_number": 9707,
+        "starting_date_of_validity": "2021-12-01 05:40:48",
+        "expiration_date": "2021-12-25 17:07:15",
+        "ticket_amount": null,
+        "booking_time": null
+    },
+    {
+        "ticket_number": 9763,
+        "starting_date_of_validity": "2021-12-02 03:47:15",
+        "expiration_date": "2021-12-26 16:56:20",
+        "ticket_amount": 2,
+        "booking_time": "12:50"
+    },
+    {
+        "ticket_number": 9389,
+        "starting_date_of_validity": "2021-12-03 16:30:05",
+        "expiration_date": "2021-12-26 21:17:03",
+        "ticket_amount": null,
+        "booking_time": null
+    },
+    {
+        "ticket_number": 9240,
+        "starting_date_of_validity": "2021-12-04 19:05:42",
+        "expiration_date": "2021-12-25 00:42:17",
+        "ticket_amount": 4,
+        "booking_time": "13:15"
+    },
+    {
+        "ticket_number": 9200,
+        "starting_date_of_validity": "2021-12-05 21:59:13",
+        "expiration_date": "2021-12-25 11:07:52",
+        "ticket_amount": null,
+        "booking_time": null
+    },
+    {
+        "ticket_number": 10000,
+        "starting_date_of_validity": "2021-12-06 16:44:16",
+        "expiration_date": "2021-12-25 22:44:05",
+        "ticket_amount": null,
+        "booking_time": null
+    },
+    {
+        "ticket_number": 9050,
+        "starting_date_of_validity": "2021-12-07 01:17:02",
+        "expiration_date": "2021-12-25 15:10:56",
+        "ticket_amount": null,
+        "booking_time": null
+    },
+    {
+        "ticket_number": 9362,
+        "starting_date_of_validity": "2021-12-08 11:41:09",
+        "expiration_date": "2021-12-26 05:15:41",
+        "ticket_amount": null,
+        "booking_time": null
+    },
+    {
+        "ticket_number": 9619,
+        "starting_date_of_validity": "2021-12-09 00:04:57",
+        "expiration_date": "2021-12-26 00:42:29",
+        "ticket_amount": null,
+        "booking_time": null
+    },
+    {
+        "ticket_number": 9811,
+        "starting_date_of_validity": "2020-12-10 18:47:22",
+        "expiration_date": "2021-12-25 17:15:06",
+        "ticket_amount": null,
+        "booking_time": null
+    }
+]

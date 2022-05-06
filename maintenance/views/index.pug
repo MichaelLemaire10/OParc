@@ -1,0 +1,47 @@
+include partials/header.pug 
+
+h1(class="has-text-link is-size-2").title="Liste des incidents"
+
+div(class="container")
+
+  a(class="button is-primary" href="/v1/incident/new")="Déclarer un nouvel incident"
+
+  table(class="table is-striped is-bordered") 
+    thead
+      tr
+        th(class="has-text-white")="N° d'incident"
+        th(class="has-text-white")="Date de l'incident"
+        th(class="has-text-white")="Nature"
+        th(class="has-text-white")="Technicien"
+        th(class="has-text-white")="Attraction"
+        th(class="has-text-white")="Date de résolution"
+      tbody
+      - for (const incident of incidents)
+        - if(incident.resolution_date)
+          tr(class="success")
+            td
+              a(class="tag is-success" href=`/v1/incident/${incident.id}`)=`${incident.id}`
+            td=`${incident.date_incident}`
+            td=`${incident.origin}`
+            td=`${incident.assigned_technician}`
+            td=`${incident.public_name}`
+            td=`${incident.resolution_date}`
+        - else if (incident.assigned_technician)
+          tr(class="warning")
+            td
+              a(class="tag is-warning" href=`/v1/incident/${incident.id}`)=`${incident.id}`
+            td=`${incident.date_incident}`
+            td=`${incident.origin}`
+            td=`${incident.assigned_technician}`
+            td=`${incident.public_name}`
+            td=`${incident.resolution_date}`
+
+        - else 
+          tr(class="danger")
+            td
+              a(class="tag is-danger" href=`/v1/incident/${incident.id}`)=`${incident.id}`
+            td=`${incident.date_incident}`
+            td=`${incident.origin}`
+            td=`${incident.assigned_technician}`
+            td=`${incident.public_name}`
+            td=`${incident.resolution_date}`

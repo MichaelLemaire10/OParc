@@ -1,0 +1,66 @@
+.cardB {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    flex-direction: column;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+th{
+    background-color: hsl(217, 71%, 53%);
+}
+
+tr {
+    background-color: hsl(206, 70%, 96%); 
+}
+
+.success {
+    color: hsl(171, 100%, 29%);
+}
+
+.danger {
+    color: hsl(348, 86%, 43%);
+}
+
+.warning {
+   color: hsl(48, 98%, 42%)
+}
+
+.is-info, .a, .has-text-info, .is-link {
+    margin: 10px;
+}
+
+a {
+    margin-bottom: 10px;
+}
+
+.nav {
+    background-color: hsl(217, 71%, 53%);
+}
